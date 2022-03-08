@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -adR ./ | grep *.js | xargs rm
+find . -type f -name "*.js" | xargs rm
