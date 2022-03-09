@@ -1,2 +1,2 @@
 #!/bin/bash 
-printf '\n%s\n' $(cut -c 1|tr "\n" "")
+cut -c 1|tr "\n" ""
